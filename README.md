@@ -35,7 +35,7 @@ Packets:
   Health packets will give you 20 health, you cannot exceed 100. Ammo packets will give you 30 more bullets. You cannot exceed 90 bullets (30 in your current magazine and 60 in your stash. 
 
 Time:
-  Score is based on how long you survice, there is a counter at the top of your screen telling you how long you've been alive this round. 
+  Score is based on how long you survive, there is a counter at the top of your screen telling you how long you've been alive this round. 
 
 Restarting:
   If you die, your screen will turn red and you will be shown how long you lasted. All you have to do is click to restart a new round.
