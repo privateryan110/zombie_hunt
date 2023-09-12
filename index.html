@@ -1,0 +1,45 @@
+<!--site template-->
+<!doctype html>
+<html>
+  <head>
+    <!-- p5 library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <!-- p5 Sound Library -->
+    <script defer src=https://cdn.JsDelivr.net/npm/p5/lib/addons/p5.sound.min.js></script>
+      
+    <!--A frame -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+      
+    <!-- A Frame/p5 library -->
+    <script src="https://craignyu.github.io/aframep5/libraries/aframep5-v2.1.js"></script>
+    
+    <!--javascript import -->
+    <script src = "classes.js"></script>
+    <script src="main.js"></script>
+      
+    <!--Style import-->
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+  </head>
+  <body>
+      <!--Main Scene-->
+      <a-scene id = "VRScene">
+          <!--Assets-->
+          <a-assets id = "VRAssets">
+              <!--Imports the rifle object-->
+              <a-asset-item id="rifle_obj" src="Objects/rifle.obj"></a-asset-item>
+              <a-asset-item id="rifle_mtl" src="Objects/rifle.mtl"></a-asset-item>
+              
+              <!--Imports the magazine object-->
+              <a-asset-item id="magazine_obj" src="Objects/magazine.obj"></a-asset-item>
+              <a-asset-item id="magazine_mtl" src="Objects/magazine.mtl"></a-asset-item>
+              
+              <!--Imports the taco bell object-->
+              <a-asset-item id="taco_bell_obj" src="Objects/taco_bell.obj"></a-asset-item>
+              <a-asset-item id="taco_bell_mtl" src="Objects/taco_bell.mtl"></a-asset-item>
+              
+              <img src="Assets/gray.png" id="iron">
+          </a-assets>
+      </a-scene>    
+  </body>
+</html>
